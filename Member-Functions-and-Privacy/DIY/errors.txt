@@ -1,0 +1,8 @@
+Icecream.cpp: In function ‘void __static_initialization_and_destruction_0(int, int)’:
+Icecream.cpp:4:52: internal compiler error: in gimplify_init_constructor, at gimplify.c:4271
+ seneca::data seneca::Icecream::icecreamData[10] = {};
+                                                    ^
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <http://bugzilla.redhat.com/bugzilla> for instructions.
+Preprocessed source stored into /tmp/ccldsh7w.out file, please attach this to your bugreport.

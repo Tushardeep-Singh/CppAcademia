@@ -1,0 +1,7 @@
+bankaccount.cpp: In member function ‘bool seneca::bankAccount::operator==(const seneca::bankAccount&) const’:
+bankaccount.cpp:114:105: error: ‘fabs’ was not declared in this scope
+   return !strcmp(this->m_userName, otherBankAcc.m_userName) && fabs(this->m_funds - otherBankAcc.m_funds) < 0.001 && (this->m_checking == otherBankAcc.m_checking);
+                                                                                                         ^
+bankaccount.cpp:115:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^

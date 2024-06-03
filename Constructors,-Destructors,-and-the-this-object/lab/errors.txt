@@ -1,0 +1,9 @@
+Fridge.cpp: In member function ‘void seneca::Fridge::changeModel(const char*)’:
+Fridge.cpp:90:26: error: no matching function for call to ‘seneca::Fridge::~Fridge()’
+          Fridge::~Fridge();
+                          ^
+Fridge.cpp:90:26: note: candidate is:
+Fridge.cpp:70:4: note: seneca::Fridge::~Fridge()
+    Fridge::~Fridge()
+    ^
+Fridge.cpp:70:4: note:   candidate expects 1 argument, 0 provided
